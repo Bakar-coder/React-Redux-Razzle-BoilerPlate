@@ -9,7 +9,7 @@
 }
 
 .Home-header {
-  background-color: #011730;
+  background-color: #0a0a27;
   height: 100vh;
   color: white;
   display: flex;
@@ -24,7 +24,13 @@
 
 h1,
 h3 {
-  font-weight: 300;
+  font-weight: 400;
+  color: #f8f8f8;
+}
+
+a {
+  text-decoration: none;
+  color: #31ff64;
 }
 
 .Home-resources {

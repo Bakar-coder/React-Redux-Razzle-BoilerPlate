@@ -9,7 +9,7 @@ const Home = props => {
   const head = () => (
     <Helmet>
       <title>{`SSR REACT REDUX BOILERPLATE`}</title>
-      <meta property="og:title" content="Movies List" />
+      <meta property="og:title" content="Home Content" />
     </Helmet>
   );
 
@@ -19,9 +19,13 @@ const Home = props => {
       <div className="Home-header">
         <img src={logo} className="Home-logo" alt="logo" />
         <h1>
-          SERVER SIDE RENDERED REACT & REDUX <br /> CUSTOMIZABLE BOILERPLATE.
+          SERVER SIDE RENDERED REACT & REDUX <br /> BOILERPLATE WITH STATIC
+          ROUTING.
         </h1>
         <h3>Created by -: Wabomba Bakar</h3>
+        <p>
+          View : <a href="https://github.com/Bakar-coder">Github</a>
+        </p>
       </div>
     </div>
   );
